@@ -8,7 +8,9 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
+        # find midpoint
         slow = fast = head
+        # if you want to find the first mid not the second set slow = head, fast = head.next
         while fast and fast.next:
             fast = fast.next.next
             slow = slow.next
@@ -19,10 +21,10 @@ class Solution:
             curr.next = prev
             prev = curr
             curr = temp
-        # modify
+        # merge the two lists
         first = head
         last = prev
-        while first and last.next:
+        while last.next:
             # print(first.val, last.val)
             temp1 = first.next
             temp2 = last.next
