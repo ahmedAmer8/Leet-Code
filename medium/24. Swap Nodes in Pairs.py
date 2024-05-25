@@ -13,10 +13,10 @@ class Solution:
 
             # swap the nodes
             a.next = b.next
-            curr.next = b
             b.next = a
+            curr.next = b
             # updata iterator
-            curr = curr.next.next
+            curr = a
         return dummy.next
 
 
