@@ -1,13 +1,9 @@
 class Solution:
     def countDays(self, days: int, meetings: List[List[int]]) -> int:
-        meetings.sort()
-        start = meetings[0][0]
-        end = meetings[0][1]
-        for s, e in meetings[1:]:
-            if s <= end:
-                end = max(end, e)
-            else:
-                days -= (end - start + 1)
-                start = s
-                end = e
-        return days - (end - start + 1)
+        meetings.sort(key= lambda x:(x[0], x[1]))
+        count, cur = 0, 0
+        for s, e in meetings:
+            count += max(0, s - cur - 1)
+            cur = max(cur, e)
+        
+        return count + days - cur
