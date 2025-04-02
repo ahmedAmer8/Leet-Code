@@ -37,7 +37,7 @@ If you'd like to contribute or suggest improvements, feel free to fork the repos
 ## 📞 Contact
 If you have any questions or suggestions, feel free to reach out!
 
-- LinkedIn: [Ahmed Amer]([https://www.linkedin.com/in/ahmed-amer](https://www.linkedin.com/in/ahmed-amer-03b390244/))
+- LinkedIn: [Ahmed Amer](https://www.linkedin.com/in/ahmed-amer-03b390244/)
 
 Happy Coding! 🎯
 
