@@ -13,7 +13,7 @@ Each problem is named according to its LeetCode title and is implemented in a Py
 ## 🔧 How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/leetcode-python-solutions.git
+   git clone https://github.com/ahmedAmer8/leetcode-python-solutions.git
    ```
 2. Navigate to the desired difficulty level:
    ```bash
@@ -36,6 +36,8 @@ If you'd like to contribute or suggest improvements, feel free to fork the repos
 
 ## 📞 Contact
 If you have any questions or suggestions, feel free to reach out!
+
+- LinkedIn: [Ahmed Amer]([https://www.linkedin.com/in/ahmed-amer](https://www.linkedin.com/in/ahmed-amer-03b390244/))
 
 Happy Coding! 🎯
 
